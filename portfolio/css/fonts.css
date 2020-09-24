@@ -1,0 +1,6 @@
+/* font face */
+
+@font-face{
+    font-family: "Kufam";
+    src: url(/css/fonts/Kufam/Kufam-VariableFont_wght.ttf);
+}

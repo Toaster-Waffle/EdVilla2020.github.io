@@ -1,0 +1,179 @@
+
+/* import fonts from fonts.css */
+@import url(./fonts.css);
+
+/* css variables */
+@import url(./partials/_variables.css);
+
+/* global variables */
+@import url(./partials/_global.css);
+
+/* Start navigation */
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+    
+}
+
+.header_area .main-menu .navbar{
+    padding: 1rem 10rem 1rem 10rem;
+    background-color: white;
+    /* background: url(../images/banner/nav_pattern.png); */
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 600 15px/2px var(--kufam);
+    text-transform: uppercase;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* End navigation */
+
+/* Banner Area */
+
+.site-main .site-banner{
+    background: url(../images/banner/lines.png);
+}
+
+.site-main .site-banner .site-title h3{
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after{
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img{
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+
+/* End Banner Area */
+
+/* start about area */
+
+.site-main .about-area{
+    padding: 5rem 1rem;
+    background: url(../images/banner/about_me_pattern.png);
+}
+
+.site-main .about-area .about-image > img{
+    border-color: black;
+    border-width: 1rem;
+}
+
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 29px/40px var(--kufam);
+    letter-spacing: 5px;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+    color: black;
+}
+
+/* end about area */
+
+/* Start Services Area */
+
+.site-main .services-area{
+    padding-block: 7rem 2rem;
+    background-image: url("../images/banner/clouds.png");
+}
+
+.site-main .services-area .services-title{
+    margin-top: 2rem;
+    padding: 0 14rem;
+}
+
+
+.site-main .services-area .services-title h1{
+    font-size: 35px;
+}
+
+.site-main > .services-area .services{
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease; 
+}
+
+.site-main > .services-area .services:hover{
+    box-shadow: var(--box-shadow);
+}
+
+/* End Services Area */
+
+/* Begin projects area */
+
+.site-main .project-area{
+    padding: 4rem 0;
+}
+
+.site-main .project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--kufam);
+    text-transform: uppercase;
+}
+
+.site-main .project-area .button-group button + button{
+    padding-left: 3rem;
+}
+
+.site-main .project-area .grid .our-project > .title h4{
+    font: normal 700 25px/12px var(--kufam);
+}
+
+.site-main .project-area .grid .our-project .img:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+/* end projects area */
+
+/* footer area */
+
+
+footer.footer-area{
+    padding: 5rem 0;
+}
+
+footer.footer-area .social h5{
+    font: normal 500 23px/ 30px var(--kufam);
+}
+
+footer.footer-area .social a:hover > i{
+    box-shadow: var(--box-shadow);
+}
