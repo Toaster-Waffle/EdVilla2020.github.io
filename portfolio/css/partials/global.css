@@ -24,6 +24,9 @@
     color: whitesmoke;
     transition: background .6s ease;
     box-shadow: var(--box-shadow);
+    border-radius: 8px;
+    border-color: black;
+    border-width: 2px;
 }
 
 .button.primary-button:hover{
