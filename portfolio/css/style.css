@@ -109,7 +109,7 @@
 
 .site-main .services-area{
     padding-block: 7rem 2rem;
-    background-image: url("../images/banner/clouds.png");
+    background-image: url("../images/banner/services.png");
 }
 
 .site-main .services-area .services-title{
@@ -147,6 +147,14 @@
     border: none;
     font: normal 500 16px/130px var(--kufam);
     text-transform: uppercase;
+    font-weight: bold;
+}
+
+.site-main .project-area .button-group button:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .site-main .project-area .button-group button + button{
